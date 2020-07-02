@@ -8,6 +8,7 @@
 clear all; clc;
 
 %% Tuning
+controlled_stop_at_time = 400; % [s] into simulation
 work_height = 1.2*100;
 base_radius = 0.75*100;
 platform_radius = 0.75*base_radius;
